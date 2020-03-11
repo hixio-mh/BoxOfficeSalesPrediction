@@ -1,0 +1,16 @@
+1. sudo apt-get install mariadb-server
+2.1 Once the installation completes run: sudo service mariadb start
+
+2. sudo mysql_secure_installation
+3. Press enter when prompted for the current root password
+4. Provide a new root password
+5. Retype the root password
+6. Answer "Yes" to all questions
+7. Connect to the DB from command line as root user:
+
+   sudo mysql -u root -p
+
+8. Provide the root password
+
+9. To use script to setup Database for program, type 'source file_path_of_script'
+Example: 'source /home/user/Desktop/LudlamAbrahamGradProject/createSQL.sql'

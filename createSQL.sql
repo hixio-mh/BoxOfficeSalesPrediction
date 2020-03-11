@@ -1,0 +1,6 @@
+CREATE DATABASE linearReg;
+GRANT ALL PRIVILEGES ON linearReg TO 'Predaccount'@'localhost' IDENTIFIED BY 'pass';
+USE linearReg;
+CREATE TABLE maindata (MovieName VARCHAR(50), PT INT(20),  NT INT(20),   NEGT INT(20),  PF DOUBLE,  NF DOUBLE,   NEGF DOUBLE,  PRT DOUBLE,  NRT DOUBLE,   NEGRT DOUBLE, PRL DOUBLE,  NRL DOUBLE,   NEGRL DOUBLE,   Budget DOUBLE,  Box DOUBLE,   PROFIT DOUBLE);
+
+INSERT INTO maindata VALUES ('TestMovie', 0, 0, 0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0);
